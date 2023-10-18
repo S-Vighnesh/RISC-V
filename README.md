@@ -114,10 +114,12 @@ spike -d pk 1_to_N.o
 - use ```esc :q``` to quit
 
 _____Contents of main when used -O1 optimizer_____
-![ALP_used_O1](https://github.com/yagnavivek/PES_ASIC_CLASS/assets/93475824/9c63218d-babc-45df-bb62-c894b27f13c5)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/9bcf10f7-fe33-45f3-8867-4656119cb86a)
+
 
 _____contents of main when used -Ofast optimizer_____
-![ALP_Used_ofast](https://github.com/yagnavivek/PES_ASIC_CLASS/assets/93475824/a89dff4b-30a7-46fe-bd7e-166ebe95f4e9)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/0c05586b-08a3-452f-b242-6b97aa07acfb)
+
 
 ## Integer number Representation (n-bit)
 - Range of Unsigned numbers : [0, (2^n)-1 ]
@@ -170,7 +172,8 @@ There are 47 Base Integer Instructions present in RISC-V ISA
    - These instructions are used for unconditional jumps and function calls.
    - Examples: JAL
 
-<img width="1000" height="420" alt="image" src="https://github.com/yagnavivek/PES_ASIC_CLASS/assets/93475824/e69043fb-684e-42eb-9e21-fd51943c1ec1">
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/be9b07f3-4a07-4f3c-bd23-495bc86ed0e4)
+
 
 **[number]** represents number of bits occupied by that field
 
@@ -199,7 +202,8 @@ The access is done using Sysytem calls with the help of ABI
 ### ABI Names : 
 - ABI names for registers serve as a standardized way to designate the purpose and usage of specific registers within a software ecosystem. These names play a critical role in maintaining compatibility, optimizing code generation, and facilitating communication between different software components.
 
-<img width="1000" height="600" src="https://github.com/yagnavivek/PES_ASIC_CLASS/assets/93475824/27d13974-1b70-4207-a2fb-05b232027323">
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/43c5d23d-3f71-47a6-b957-bcdb8a2f35fe)
+
 
 #### Data can be stored in register by 2 methods
 1. Directly store in registers
@@ -252,19 +256,23 @@ Navigate to [makerchip](https://makerchip.com)
 
 #### B) Xor gate using operators
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/8b29750b-b133-4ce8-8326-5ccfd7d87d5a)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/d199c126-9816-4db8-ab5e-37789f7a3fd9)
+
 
 #### C) Vectors
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/402438eb-b996-4782-945a-9df8a89030fa)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/3a463788-447f-4538-b601-2aa135316f57)
+
 
 #### D) Mux (with and without vectors)
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/7795306d-10ba-48f4-a9e8-e490e5fcb102)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/b1ca531e-29d8-497b-afe2-a17ab964027b)
+
 
 #### E) Simple Claculator
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/a09cf5b0-3202-42e0-8762-97cb3581bc61)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/0046c0e8-771c-431c-9566-4f224c386e4d)
+
 
 ### Sequential Logic
 
@@ -274,24 +282,29 @@ Navigate to [makerchip](https://makerchip.com)
 
 #### F) Fibonacci series
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/0e78f120-fb9f-4d24-ba6d-5b3e2485bd61)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/659e9c36-dacc-4e99-a935-04e0796fff13)
+
 
 #### G) Up-Counter
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/647f822d-008f-48ec-ae93-ade2da37db85)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/dbcdf4cb-801d-4274-8694-ac5b6ffb7712)
+
 
 #### H) Sequential Calculator 
   Input val1 is the previous output of calculator
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/9192605d-1221-46fd-bac3-c1f06352ac16)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/a4f05719-a50d-486e-a4ea-5152e52da6fb)
+
 
 #### I) A simple pipeline through Pythagorean example
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/923022a1-7bc4-4fd6-95e8-c0ea41405aba)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/dee7893f-3e06-4792-b984-26204ae030a9)
+
 
 #### J) Pipeline Implementation example
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/2a58ccd8-e1ca-42bd-af79-2a277bc72265)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/f6528c79-d607-4eb2-9b1d-3996ebdaaba8)
+
 
 
 ## Validity 
@@ -302,16 +315,19 @@ Navigate to [makerchip](https://makerchip.com)
 
 #### K) 2 cycle calculator with validity
 
-![Screenshot from 2023-10-14 18-00-53](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/3e2e5fe1-2cbf-485d-a4e6-a6976e07e755)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/432b9610-3e58-4ef1-a7f4-08ca07cb54fa)
+
 
 
 #### L) Distance Calculator
 
-![Screenshot from 2023-10-14 18-53-33](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/64701bdb-aa3e-4323-a2f4-2f2fa51a776c)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/a0173020-4ae5-4b89-bbe1-d3e318b4dfff)
+
 
 #### M) Calulator_memory
 
-![Screenshot from 2023-10-14 18-58-48](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/bfc81566-6343-42e7-bfea-4ace15c2bfcf)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/a054a0ea-b822-4308-b764-078de6da17fe)
+
 
 
 </details>
@@ -322,7 +338,8 @@ Navigate to [makerchip](https://makerchip.com)
 
 # RISC-V Implementation Blueprint
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/140a5803-8436-47a0-9e84-945284415482)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/396a4ef1-bcf6-4dc7-9604-1c7971d50418)
+
 
 Link for the starter code [starter code](https://myth.makerchip.com/sandbox?code_url=https:%2F%2Fraw.githubusercontent.com%2Fstevehoover%2FRISC-V_MYTH_Workshop%2Fmaster%2Frisc-v_shell.tlv#) 
 
@@ -335,7 +352,8 @@ Link for the starter code [starter code](https://myth.makerchip.com/sandbox?code
 
 - For branch instructions, we will have immediate instructions, for which we have to add an offset value to the PC. So for branch instructions, NextPC = Incremented PC + Offset value.
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/86ebf67f-95ab-4a2b-8002-3eb1789966c6)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/9c6ef09c-8061-406f-9757-fb82e684e698)
+
 
 ## 2. Instruction Fetch
 
@@ -343,40 +361,49 @@ Link for the starter code [starter code](https://myth.makerchip.com/sandbox?code
 - The instruction memory read address pointer is computed from the program counter and it outputs a 32 bit instruction. (instr[31:0]) .
 - In our case, the Makerchip shell provides us an instantiation to the instruction memory, which contains a test program to compute the sum of numbers from 1 to 9.
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/3c9f61c7-124d-4dd7-b6d7-254da8ed16b3)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/9bb97751-ee83-41e6-a1f7-9974d24c3070)
+
 
 
 ## 3.Instruction Decode
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/3464a32d-62c8-4a50-aef2-2c7e7000a179)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/9aa2c24b-4b09-47d3-acaa-80b1149f6719)
+
 
 ## 4. Instruction Decode with validity
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/06ea8486-6e91-4524-bff7-1b37cc0ff349)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/73c57c8c-9c51-4129-bd9d-712f9f5a6ac8)
+
 
 ## 5. Individual Instruction decode
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/e870f9db-de18-4052-b2d4-189dc0eddb92)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/8ee5983d-a03c-41ea-ab41-07b73854e988)
+
 
 ## 6. Register file read
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/a9c98216-a816-4fcf-974f-75fceeacbecd)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/ab93aeab-41cf-4488-8ed4-ecd1d07c3f36)
+
 
 ## 7. ALU
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/6a29d2b9-9354-48fa-8303-b09d90bf8b8c)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/ceffb1eb-788b-423c-b4b8-4d6557008e66)
+
 
 ## 8. Register File Write
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/0c766dc9-3cd6-4387-bf9f-4167558ec240)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/4fede29d-ae90-4f70-939b-65b4719d0887)
+
 
 ## 9. Branch Instructions
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/5e41c6a7-deac-411a-b439-05ff52215eb8)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/3c11a7fe-a90f-482c-8665-b6b8811de68e)
+
 
 ## 10. Testbench to check functionality
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/857f16f1-e979-4e0f-a3f1-415392c6c85b)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/2019d27e-f993-45fa-b0d2-a99100ea938f)
+
 
 </details>
 
@@ -399,7 +426,7 @@ Link for the starter code [starter code](https://myth.makerchip.com/sandbox?code
 
 ### Generation of 3 cycle valid signal
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/cef37901-c4f9-4382-af6c-f778a1aaaa4a)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/98f5d27a-8e39-467c-a54f-5e3bf9acd941)
 
 - There might be some invalid cycles (invalid operation when valid is on) being encountered in this proccess. SO we have to take care of them.
 
@@ -408,7 +435,8 @@ Link for the starter code [starter code](https://myth.makerchip.com/sandbox?code
 - Avoid writing into register file for invalid operations
 - Avoid redirecting PC for nvalid instructions(branch)
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/1a2ec7de-4ab5-4e8c-bf8f-4024191dd641)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/9fafb6ff-355f-41a9-a71c-b64d2a73a9eb)
+
 
 ### Introduce 5 stage pipeline 
 
@@ -418,33 +446,40 @@ Link for the starter code [starter code](https://myth.makerchip.com/sandbox?code
 
 1. Register file bypass
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/9be47987-9e97-4eed-9c5e-8e65f0f158f2)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/6e2878b0-7d24-43ce-9626-eeeba39871c9)
+
 
 2. Correct the branch target path
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/2fffda72-1a4f-4b81-8643-dfa2a7fe8c7a)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/f0e0649b-7b97-4344-8bfe-08f1d537d876)
+
 
 3. Complete Instruction Decode
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/4f2127df-b28f-47e0-abac-37e7648f8ef2)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/7750d359-f072-4252-bafd-1f011f295977)
+
 
 4. Complete ALU
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/dfb54415-4cda-434c-b175-11703f128ec8)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/afa5c168-2e19-424a-9ff9-3b69b522fc6e)
+
 
 ## Completing RISC-V CPU with final touch of Load/Store Instructions
 
 1. Redirecting Loads
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/066cf305-0aa3-41fe-a937-f5ad39095d91)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/0113b1d1-59b4-486a-a16b-9b17963ec307)
+
 
 2. Load Data from Memory to register file
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/f0fee7f9-9bf4-4a38-8386-275a52ebfecf)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/9ace0132-6cb3-4b8d-b9c4-3efc19ca4d38)
+
 
 3. Instantiate Data memory to CPU
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/03573672-9076-4c12-a8ac-c0fb43c2722d)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/92b515f7-723a-43fd-b9e9-efe03fbef0df)
+
 
 4. Add loads and stores to test the program
 
@@ -454,7 +489,8 @@ m4_asm(LW r15, r0, 100)
 ```
 5. Lab for jump instructions
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/ec4d2fcf-143a-40e9-b991-912637bc4372)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/f9e03d46-ac2f-42cb-9f7b-b643185ee223)
+
 
 </details>
 
@@ -462,12 +498,14 @@ m4_asm(LW r15, r0, 100)
 
 The code required for the RISC-V Core written in TL-Verilog and System Verilog can be compared by selecting the "Show Verilog" on the makerchip platform under the "E" tab. Upon visualization, a significant code reduction can be seen in the comparision chart.
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/af4b9911-e56f-498a-9276-aceb17deb3c1)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/0b7da2c9-5cfe-48d1-876a-6dc93c0ba14b)
+
 
 
 # Final RISC-V core block Diagram
 
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/af260f0a-9f40-4d1d-9ab1-67dd7397a8fc)
+![image](https://github.com/S-Vighnesh/RISC-V/assets/137196908/91195cad-3f51-47e0-b6ea-9c9d24432f4c)
+
 
 # References
 
